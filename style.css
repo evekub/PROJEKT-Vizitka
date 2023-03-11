@@ -14,3 +14,91 @@ tlačítko Facebook:				 #3b5998
 tlačítko Facebook aktivní: #2b406e
 */
 
+
+body {background-color: #b2bec3;}
+
+h1 {color: #d63031;
+    font-family: 'Nunito', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.box {width: 550px;
+background-color: white;
+border-radius: 10px;
+box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.348);
+margin-top: 150px;
+margin-left: auto;
+margin-right: auto;
+padding-bottom: 30px;
+padding-top: 10px;
+position: relative;
+}
+
+.prvniodstavec {font-family: 'Nunito', sans-serif;
+font-size: 18px;
+margin-top: 0;
+margin-left: 30px;
+margin-right: 30px;
+margin-bottom: 30px;
+
+}
+
+.druhyodstavec {font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    margin-top: 0;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border: 3px solid white;
+    border-radius: 50%;
+    position: absolute;
+    right: -15%;
+    top: -15%;
+}
+
+.Facebook { display: block;
+background-color: #3b5998;
+color: white;
+font-size: 18px;
+font-family: 'Nunito', sans-serif;
+font-weight: bold;
+text-transform: uppercase;
+margin: 0 30px 0 30px;
+text-align: center;
+border-radius: 5px;
+padding: 10px;
+
+}
+
+.Twitter {display: block;
+background-color:#1da1f2;
+font-size: 18px;
+color: white;
+font-family: 'Nunito', sans-serif;
+font-weight: bold;
+text-transform: uppercase;
+margin: 30px 30px 5px 30px;
+border-radius: 5px;
+text-align: center;
+padding: 10px
+
+}
+
+a {text-decoration: none;
+display: block;
+}
+
+.Facebook:hover {background-color: #2b406e;
+color: white;}
+
+.Twitter:hover {background-color: #0b7bc1;
+    color: white;}
